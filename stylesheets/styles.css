@@ -431,3 +431,40 @@ iframe {
     margin: 4px 2px;
     cursor: pointer;
 }
+
+
+/* Table Stuff */
+table {
+    width: 100%;
+    border-spacing: 0;
+    vertical-align: top;
+    table-layout: auto;
+}
+table td {
+    padding: 0 10px;
+    line-height: 30px;
+    background-color: inherit;
+    color: #3c3c3c;
+}
+
+tbody tr:hover, tbody td.hover {
+    background-color: rgba(30, 138, 228, 0.15) !important;
+}
+
+td:hover {
+    background-color: #fff !important;
+    color: #1e8ae4;
+    cursor: pointer;
+}
+tbody td.hover:hover,
+table thead th:hover {
+    background-color: #fff !important;
+}
+table thead th {
+   /* background-color: #f0f0f0 !important;*/
+    padding: 20px 10px 20px 10px;
+    font-weight: bold;
+    color: #3c3c3c;
+    vertical-align: top;
+    text-align: left;
+}
