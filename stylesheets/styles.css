@@ -43,7 +43,7 @@ a:hover {
 }
 
 a small {
-  font-size:11px;
+  font-size:10px;
   color:#777;
   margin-top:-0.3em;
   display:block;
@@ -205,7 +205,7 @@ strong {
 
 .header ul li + li + li {
   border-right:none;
-  width:89px;
+  width:px;
 }
 
 .header ul a strong {
