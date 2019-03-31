@@ -1,0 +1,12 @@
+
+
+** This file explains content of the supplemental material folder **
+
+1) The file "DM Study.mp4" is a video of the prototype we used in our study. This video explains how this prototype works and what interactions are supported using this prototype.
+
+2) The folder "Sketch Analysis" contains sketches showing 203 strategies that participants employed to perform 15 different operations (see "strategies.pdf). We also grouped these sketches into 48 independent categories based on their similarities (see Meaning ``Summary6.pdf'' and ``StrategiesExplanation.pdf'').
+
+3) The ``Study Tool'' folder contains the prototype used in our study. You may run the tool by opening the ``index.html'' using any web browser.
+
+
+
