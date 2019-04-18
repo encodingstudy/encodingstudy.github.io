@@ -81,7 +81,7 @@ a:hover small {
 }
 
 .wrapper {
-  width:60%;
+  width:76%;
   margin:0 auto;
  text-align: justify;
 }
@@ -460,6 +460,9 @@ tbody td.hover:hover,
 table thead th:hover {
     background-color: #fff !important;
 }
+
+
+
 table thead th {
    /* background-color: #f0f0f0 !important;*/
     padding: 20px 10px 20px 10px;

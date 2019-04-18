@@ -1,0 +1,92 @@
+#interactive-table {
+  font-size: 9px;
+  
+}
+
+#interactive-table * {
+  font-weight: 500;
+  color: black;
+  cursor: default;
+}
+
+#interactive-table td,
+#interactive-table th {
+  border: 1px solid black;
+  padding: 0;
+}
+
+#interactive-table table {
+  border-collapse: collapse;
+}
+
+#interactive-table table td {
+  padding: 0;
+  line-height: 16px;
+}
+
+.header-col-div,
+.header-both > div {
+  width: 16px;
+  height: 150px;
+
+  position: relative;
+}
+
+.vert-text {
+  white-space: nowrap;
+  transform-origin: top left;
+  transform: translate(2px, 148px) rotate(270deg);
+}
+
+.tip {
+  position: absolute;
+  left: -220px;
+  top: 10px;
+  width: 200px;
+  /* min-height: 30px; */
+  font-size: 11px;
+  border-radius: 2px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  display: none;
+}
+
+.tip.show {
+  display: initial;
+}
+
+.header-row, .cell {
+  white-space: nowrap;
+  height: 16px;
+}
+
+.header-row > div {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  padding: 0 2px;
+}
+
+#interactive-table .bold > div {
+  font-weight: bold;
+}
+
+.cell > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cell:hover {
+  background-color: initial !important;
+}
+
+.cell > div:hover {
+  color: black !important;
+}
+
+.row:hover,
+.highlighted {
+  background-color: rgba(255, 255, 0, 0.4);
+}
